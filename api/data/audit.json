@@ -1,0 +1,962 @@
+[
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "8cb944c0-6ac8-4a25-a69f-626f69451cae"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:12:22Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "data_export",
+    "is_sensitive_data_flag": true,
+    "id": "8e20afda-03bc-4d53-954d-a806c8f3846d"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "user_permission_change",
+    "is_sensitive_data_flag": true,
+    "id": "f0295a1b-43d5-463d-a77d-b60ac6fe7368"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:47:18Z",
+    "user_id": "user_302",
+    "user_role": "viewer",
+    "action_type": "report_view",
+    "is_sensitive_data_flag": false,
+    "id": "ebd8faa2-9504-4d65-991d-e8398b8208f6"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:22:09Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "query_execution",
+    "is_sensitive_data_flag": false,
+    "id": "c2875233-e8b4-4751-8435-5db630f60a4b"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:55:37Z",
+    "user_id": "user_404",
+    "user_role": "auditor",
+    "action_type": "audit_log_review",
+    "is_sensitive_data_flag": true,
+    "id": "08047a59-78f0-429e-b983-010a49d3e11c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:30:11Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "system_config_update",
+    "is_sensitive_data_flag": true,
+    "id": "c8a60819-88ea-4647-8b2b-f28fdecec12c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:18:44Z",
+    "user_id": "user_302",
+    "user_role": "viewer",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "f0511e40-5458-469e-b764-81f6b5878fdc"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:05:29Z",
+    "user_id": "user_500",
+    "user_role": "support",
+    "action_type": "ticket_access",
+    "is_sensitive_data_flag": true,
+    "id": "7251c7c8-6763-478f-a440-bb977ee77b09"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T18:40:03Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "logout",
+    "is_sensitive_data_flag": false,
+    "id": "4440c447-6d69-48ba-9263-25cc0448ff86"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "ea484cc0-14ec-4b4e-9081-da9d2391bbba"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_002",
+    "user_role": "analyst",
+    "action_type": "data_export",
+    "is_sensitive_data_flag": true,
+    "id": "d3811445-5ebc-4736-8ee9-b9a71797ffe6"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "support",
+    "action_type": "ticket_access",
+    "is_sensitive_data_flag": false,
+    "id": "156b72f2-49cd-4d1e-a389-a3e55c3c0886"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "user_deletion",
+    "is_sensitive_data_flag": true,
+    "id": "a62e827a-f441-4f64-92fb-24f76480d354"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "auditor",
+    "action_type": "log_review",
+    "is_sensitive_data_flag": false,
+    "id": "36495f80-fa07-4196-bc1d-545c6321da52"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "analyst",
+    "action_type": "query_execution",
+    "is_sensitive_data_flag": true,
+    "id": "0b9363af-2d52-4830-97f9-d78aa6af14de"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:40Z",
+    "user_id": "user_005",
+    "user_role": "developer",
+    "action_type": "code_deployment",
+    "is_sensitive_data_flag": false,
+    "id": "eca49b16-d0ab-407e-b1a7-1869ab5c5494"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:25:12Z",
+    "user_id": "user_003",
+    "user_role": "support",
+    "action_type": "password_reset",
+    "is_sensitive_data_flag": true,
+    "id": "0ffc331e-9e94-4418-8851-703df5de71cd"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:50:30Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "permission_change",
+    "is_sensitive_data_flag": true,
+    "id": "17ca0a2d-623d-4589-9098-b54b32ff0b85"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:35:05Z",
+    "user_id": "user_004",
+    "user_role": "auditor",
+    "action_type": "report_generation",
+    "is_sensitive_data_flag": false,
+    "id": "e730d749-10c4-42f7-a39f-eab26b8b5fc1"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "113c7299-f6d2-4a8d-b5b3-a230da74d7e9"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:12:22Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "57b39dd0-8980-4051-b4d9-0122d324d672"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "6e3cc4bd-2b9a-4684-976e-621b025c9233"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:15Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "13a789fd-06f8-4522-8a54-e6c1fc80bf0a"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:10Z",
+    "user_id": "user_004",
+    "user_role": "viewer",
+    "action_type": "search",
+    "is_sensitive_data_flag": false,
+    "id": "7ad484de-25ca-40e5-bdeb-6a696804e704"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:00Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "update_settings",
+    "is_sensitive_data_flag": false,
+    "id": "ac176944-cad2-410f-91d5-443eaa0c2fa3"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:15:28Z",
+    "user_id": "user_005",
+    "user_role": "auditor",
+    "action_type": "access_logs",
+    "is_sensitive_data_flag": true,
+    "id": "430d045b-d540-48d5-a23f-a2389b4f239e"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:40:19Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "create_report",
+    "is_sensitive_data_flag": false,
+    "id": "2504acec-ecb3-468f-af26-cf9fcb57955c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:55:37Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "grant_access",
+    "is_sensitive_data_flag": true,
+    "id": "10d023a3-8693-4481-a4b3-366957326cb3"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:30:42Z",
+    "user_id": "user_006",
+    "user_role": "support",
+    "action_type": "ticket_resolution",
+    "is_sensitive_data_flag": false,
+    "id": "65b0986d-22cb-4df2-964d-187a5f937271"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "73ba8930-87d4-4248-8219-424cafca9417"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "data_export",
+    "is_sensitive_data_flag": true,
+    "id": "df07991e-46a0-4470-a311-8d6ad1e570d0"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "user_creation",
+    "is_sensitive_data_flag": false,
+    "id": "f102486d-66ed-4fb1-83b3-83210f239a9e"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_307",
+    "user_role": "viewer",
+    "action_type": "report_view",
+    "is_sensitive_data_flag": false,
+    "id": "fc05d29c-3b34-4a06-b5e2-4ea43e49b62f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:59Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "data_update",
+    "is_sensitive_data_flag": true,
+    "id": "2b8a0ec1-9d60-4882-99fb-05ee6b4432b2"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:07Z",
+    "user_id": "user_409",
+    "user_role": "auditor",
+    "action_type": "log_review",
+    "is_sensitive_data_flag": false,
+    "id": "4cebe683-1567-435f-86a7-cb0c9335be8c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:30:42Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "permission_change",
+    "is_sensitive_data_flag": true,
+    "id": "93ba1836-aa1b-474f-be32-f02fa474138c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:55:11Z",
+    "user_id": "user_512",
+    "user_role": "support",
+    "action_type": "ticket_access",
+    "is_sensitive_data_flag": true,
+    "id": "7c03ed06-8e07-47c8-874b-967838f2fedb"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:40:30Z",
+    "user_id": "user_307",
+    "user_role": "viewer",
+    "action_type": "logout",
+    "is_sensitive_data_flag": false,
+    "id": "603b20dd-c082-4c86-ac80-2501b1171131"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T18:25:05Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "query_execution",
+    "is_sensitive_data_flag": false,
+    "id": "8c1fa471-dde4-42ad-8400-a11d6fba54c3"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "feda0624-8e93-4cea-92c2-75d9a58ea0d8"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:12:22Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "660afb11-2f88-485a-8529-da583ad0f647"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "dc67d7d0-cbfa-461b-837b-15e0331dd69a"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "modify_config",
+    "is_sensitive_data_flag": true,
+    "id": "e480ce36-f208-436f-b6e7-d5f7d4e82015"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "guest",
+    "action_type": "view_dashboard",
+    "is_sensitive_data_flag": false,
+    "id": "7beb180c-99a3-4723-90b1-2046727b8169"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "3b1b51ae-61b8-4be5-a976-794a4bb70a72"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:15:40Z",
+    "user_id": "user_005",
+    "user_role": "support",
+    "action_type": "access_logs",
+    "is_sensitive_data_flag": true,
+    "id": "1fbd1bf5-41c5-457a-be53-3f0c3b6d4447"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:22:11Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "run_query",
+    "is_sensitive_data_flag": false,
+    "id": "d2320c5a-1518-44af-8d14-24603407dec2"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:50:29Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "create_user",
+    "is_sensitive_data_flag": true,
+    "id": "10cf7744-c6e5-4a02-8dd8-c9dfdf4c8c4b"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:35:16Z",
+    "user_id": "user_006",
+    "user_role": "auditor",
+    "action_type": "review_access",
+    "is_sensitive_data_flag": true,
+    "id": "2271fe99-cea4-4dc1-a535-d435dc072159"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "b31a1f0a-c89d-446f-8b19-281930e03782"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "data_export",
+    "is_sensitive_data_flag": true,
+    "id": "fa5390af-5afc-4bb8-b0b7-888c30af0ab9"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "user_permission_change",
+    "is_sensitive_data_flag": true,
+    "id": "7cce4724-5584-4a27-adcf-2518194aed9f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_307",
+    "user_role": "viewer",
+    "action_type": "report_view",
+    "is_sensitive_data_flag": false,
+    "id": "a47644a0-e95d-41ca-9d80-ec5fa83f4493"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:59Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "query_execution",
+    "is_sensitive_data_flag": false,
+    "id": "763d8071-4776-49d9-9446-1ed1c8ada935"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:07Z",
+    "user_id": "user_409",
+    "user_role": "auditor",
+    "action_type": "audit_log_review",
+    "is_sensitive_data_flag": true,
+    "id": "6c36a8d9-46e2-42c0-8efc-487741e1ffe4"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:30:42Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "system_config_update",
+    "is_sensitive_data_flag": true,
+    "id": "6023026d-3977-401d-949c-323f0a24a164"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:55:21Z",
+    "user_id": "user_502",
+    "user_role": "support",
+    "action_type": "ticket_access",
+    "is_sensitive_data_flag": false,
+    "id": "8490e085-1f34-4efc-8703-da050c094078"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:40:36Z",
+    "user_id": "user_205",
+    "user_role": "analyst",
+    "action_type": "data_deletion",
+    "is_sensitive_data_flag": true,
+    "id": "a7d87544-c656-4e50-9bec-13cf4f95e9e2"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T18:25:14Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "logout",
+    "is_sensitive_data_flag": false,
+    "id": "026e8850-5323-4647-adcc-5c6c6fb30677"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "6d12f82b-0d05-4f4e-8de9-b343e330e57b"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:12:22Z",
+    "user_id": "user_205",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "20c75a11-cd4f-49b6-ae06-78834d29e546"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_178",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "466b0fe9-2af2-42ee-b1a3-d0010d1ccadf"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:47:19Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "d3cd18a3-29ee-4008-9c8d-e1d09348198c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:30:05Z",
+    "user_id": "user_342",
+    "user_role": "guest",
+    "action_type": "view_dashboard",
+    "is_sensitive_data_flag": false,
+    "id": "18074d5b-b5cf-48b6-a978-e146c0fd8177"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:15:28Z",
+    "user_id": "user_205",
+    "user_role": "manager",
+    "action_type": "update_settings",
+    "is_sensitive_data_flag": false,
+    "id": "9a7f2d97-1b7a-4e6e-a2b2-12e9f2423b60"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:22:10Z",
+    "user_id": "user_178",
+    "user_role": "analyst",
+    "action_type": "run_query",
+    "is_sensitive_data_flag": true,
+    "id": "2f4326dc-f17c-4231-848e-13b2a16de350"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:40:50Z",
+    "user_id": "user_101",
+    "user_role": "admin",
+    "action_type": "create_user",
+    "is_sensitive_data_flag": true,
+    "id": "a13ec7e3-6658-4127-a104-ca48618560aa"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:55:37Z",
+    "user_id": "user_500",
+    "user_role": "auditor",
+    "action_type": "audit_log_review",
+    "is_sensitive_data_flag": false,
+    "id": "9a1d7f40-a062-4faa-82f4-fc3daa922817"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:20:14Z",
+    "user_id": "user_205",
+    "user_role": "manager",
+    "action_type": "logout",
+    "is_sensitive_data_flag": false,
+    "id": "e8460592-45f4-49a0-b5d7-a85354971350"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "8b5b6132-6637-4bd1-b79d-c4f2f3c572f6"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "b60aa6f0-7424-43b7-bf44-92c76bf2b51f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "7603e34f-ffe9-4fcb-bd12-0af9e5ceb6ce"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "bf1dcc22-ad86-45ef-9174-534fb853eab4"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "guest",
+    "action_type": "view_page",
+    "is_sensitive_data_flag": false,
+    "id": "a5fcf5a3-3e68-4fc7-b15f-1ff3ac563bbf"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "update_settings",
+    "is_sensitive_data_flag": false,
+    "id": "3ad05235-700c-4c1d-bddc-a659ac84610d"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:29Z",
+    "user_id": "user_005",
+    "user_role": "support",
+    "action_type": "access_ticket",
+    "is_sensitive_data_flag": true,
+    "id": "cfa2d4ea-684a-4203-8fa8-2fdc4adf375f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:25:14Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "run_query",
+    "is_sensitive_data_flag": true,
+    "id": "e7ff1d8f-9eb3-4cf5-a70e-d4ba8df75a50"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:40:36Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "create_user",
+    "is_sensitive_data_flag": true,
+    "id": "af206929-d6fb-46fa-9f4b-c90ca52ae61e"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:55:48Z",
+    "user_id": "user_006",
+    "user_role": "auditor",
+    "action_type": "review_logs",
+    "is_sensitive_data_flag": false,
+    "id": "682b7e88-8de5-46be-a107-cb4e9b31d4e4"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "fb7d794f-abc7-4322-a62f-ff5f6f686e03"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "e6e75b1a-b77b-4364-8fdf-b44e35dd6493"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "5942a223-fb86-407b-b5a5-f256f32e4456"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "modify_user",
+    "is_sensitive_data_flag": true,
+    "id": "e3ad2dd4-3bb6-4b25-beb7-dfe6415e2204"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "guest",
+    "action_type": "view_dashboard",
+    "is_sensitive_data_flag": false,
+    "id": "48f9a451-2f3a-4069-bd97-4766dd8ff95b"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "7f0f55f7-6fdb-420a-86f8-a1b850c5648e"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:40Z",
+    "user_id": "user_005",
+    "user_role": "support",
+    "action_type": "ticket_resolution",
+    "is_sensitive_data_flag": false,
+    "id": "df733f02-ed2d-474a-83e4-3cbff11db588"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:25:12Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "query_database",
+    "is_sensitive_data_flag": true,
+    "id": "f0ff7162-960e-4ff6-a217-88ed58b5a1ff"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:50:30Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "system_config_change",
+    "is_sensitive_data_flag": true,
+    "id": "fdd69f1d-0066-4bd5-9e6b-75837bfa7cc1"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:35:05Z",
+    "user_id": "user_006",
+    "user_role": "auditor",
+    "action_type": "audit_log_review",
+    "is_sensitive_data_flag": false,
+    "id": "78dbdb46-c05e-4b85-8435-75a71d823f3f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "f79966cd-8d15-49ef-a2c8-3c5f662c295f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_002",
+    "user_role": "analyst",
+    "action_type": "data_export",
+    "is_sensitive_data_flag": true,
+    "id": "fb21fbe9-b61b-4994-a737-ffc32effd3ab"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "support",
+    "action_type": "ticket_access",
+    "is_sensitive_data_flag": false,
+    "id": "d3e4b664-cee3-4545-a400-1889c657bce5"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "user_creation",
+    "is_sensitive_data_flag": true,
+    "id": "7c885d6a-5b2a-4482-880d-e83d7f3906ec"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "auditor",
+    "action_type": "log_review",
+    "is_sensitive_data_flag": false,
+    "id": "b8787644-5182-482d-b249-334ce2269cdf"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "analyst",
+    "action_type": "query_execution",
+    "is_sensitive_data_flag": true,
+    "id": "f6f5ef4a-113a-49ef-9680-6c1253d4c972"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:40Z",
+    "user_id": "user_005",
+    "user_role": "developer",
+    "action_type": "code_deployment",
+    "is_sensitive_data_flag": false,
+    "id": "1b6aef79-b3d4-47de-af2b-7e887448cd6f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:25:12Z",
+    "user_id": "user_003",
+    "user_role": "support",
+    "action_type": "password_reset",
+    "is_sensitive_data_flag": true,
+    "id": "6837cd92-af5c-4e49-acfd-b1558f33c57d"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:50:30Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "permission_change",
+    "is_sensitive_data_flag": true,
+    "id": "b34e8540-5a9d-4e9a-bff9-0453bc35fc34"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:35:05Z",
+    "user_id": "user_006",
+    "user_role": "guest",
+    "action_type": "file_download",
+    "is_sensitive_data_flag": false,
+    "id": "cb66f82f-e663-495b-ab6e-d2d54f919d98"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "f530ab45-efa1-4426-956f-8e7744418107"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "7adaaf9a-273c-4100-ace5-9b80f5a51828"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "37941fa3-32bf-4f77-828c-6136fb3c2b42"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "735f1460-a6f3-48af-b279-e4a680c36202"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "guest",
+    "action_type": "view_dashboard",
+    "is_sensitive_data_flag": false,
+    "id": "f1447df8-2770-4083-b745-3d77d49a18c0"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "update_settings",
+    "is_sensitive_data_flag": false,
+    "id": "542d1bc4-d8f5-433e-aaae-cf5b13d51e99"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:40Z",
+    "user_id": "user_005",
+    "user_role": "support",
+    "action_type": "access_logs",
+    "is_sensitive_data_flag": true,
+    "id": "43e7797c-27fe-43c0-bc5d-5178ed571c22"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:25:12Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "run_query",
+    "is_sensitive_data_flag": true,
+    "id": "e2b76a49-018e-4d3e-8724-aabf6f8e1192"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:50:30Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "create_user",
+    "is_sensitive_data_flag": true,
+    "id": "04476718-eae6-49b1-819a-1a631bf89236"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:35:05Z",
+    "user_id": "user_006",
+    "user_role": "auditor",
+    "action_type": "review_audit_logs",
+    "is_sensitive_data_flag": false,
+    "id": "dc36f404-c8ce-46ae-bbdf-2347e2123731"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T08:30:45Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "login",
+    "is_sensitive_data_flag": false,
+    "id": "17740e96-e76a-47cb-90cd-d037279af73c"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T09:15:22Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "view_report",
+    "is_sensitive_data_flag": true,
+    "id": "257da4e0-f193-4347-9f15-d559403fcf4f"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T10:05:33Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "export_data",
+    "is_sensitive_data_flag": true,
+    "id": "cfc20be8-1daa-4706-8519-bf112438ffd9"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T11:20:18Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "delete_record",
+    "is_sensitive_data_flag": true,
+    "id": "81197dc5-a5f4-4e5a-aaf8-71a05e817f68"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T12:45:07Z",
+    "user_id": "user_004",
+    "user_role": "guest",
+    "action_type": "view_dashboard",
+    "is_sensitive_data_flag": false,
+    "id": "55a0a87c-1653-460d-94b6-2b01631142cf"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T13:30:55Z",
+    "user_id": "user_002",
+    "user_role": "manager",
+    "action_type": "update_settings",
+    "is_sensitive_data_flag": false,
+    "id": "6e4e035e-fb99-43a5-ad1d-c34d1fd22b0a"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T14:10:40Z",
+    "user_id": "user_005",
+    "user_role": "support",
+    "action_type": "access_logs",
+    "is_sensitive_data_flag": true,
+    "id": "52d4f4b8-3884-4fe1-9f78-6f321ae1af21"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T15:25:12Z",
+    "user_id": "user_003",
+    "user_role": "analyst",
+    "action_type": "run_query",
+    "is_sensitive_data_flag": true,
+    "id": "d5f77ac5-5eff-450f-ab3e-32926921f396"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T16:50:30Z",
+    "user_id": "user_001",
+    "user_role": "admin",
+    "action_type": "create_user",
+    "is_sensitive_data_flag": false,
+    "id": "8e45d197-4e87-4185-9e2c-30a1c92cb7ef"
+  },
+  {
+    "audit_log_timestamp": "2023-10-15T17:35:24Z",
+    "user_id": "user_006",
+    "user_role": "auditor",
+    "action_type": "review_audit_logs",
+    "is_sensitive_data_flag": true,
+    "id": "572be3d0-def1-4729-854b-b57a336aa796"
+  }
+]

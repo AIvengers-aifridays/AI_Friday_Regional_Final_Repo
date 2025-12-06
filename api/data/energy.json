@@ -1,0 +1,978 @@
+[
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "ecb23d5c-7b2c-486a-83d8-572d892a7ca9"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1205.0,
+    "power_factor": 0.94,
+    "id": "34b2f33c-3ba2-48c7-8283-69c8cab95f01"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.8,
+    "cumulative_energy": 850.3,
+    "power_factor": 0.92,
+    "id": "05862e31-5bfd-44c8-8b59-6ae2658a8f72"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 4.1,
+    "cumulative_energy": 854.4,
+    "power_factor": 0.93,
+    "id": "4c2a5848-6704-4a09-9c07-9897a3fc4f3f"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 6.7,
+    "cumulative_energy": 2100.8,
+    "power_factor": 0.97,
+    "id": "48989555-fa0b-42d7-91ab-9474b0ec65fd"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 6.5,
+    "cumulative_energy": 2107.3,
+    "power_factor": 0.96,
+    "id": "7fb74cab-604c-4d0a-98d6-2330b110af8f"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 2.9,
+    "cumulative_energy": 450.1,
+    "power_factor": 0.91,
+    "id": "76ffd0d5-2583-4ee0-b730-30d773171a2e"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 3.0,
+    "cumulative_energy": 453.1,
+    "power_factor": 0.9,
+    "id": "4348de1a-de08-4ecf-ba8c-01600e89cd59"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 7.8,
+    "cumulative_energy": 3200.6,
+    "power_factor": 0.98,
+    "id": "ac71c0e7-1c1c-4f74-9514-43d6967571ea"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 7.6,
+    "cumulative_energy": 3208.2,
+    "power_factor": 0.97,
+    "id": "d6522435-f9a7-4c23-9d17-7f0ed4b0a255"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "4dff7ee7-bfb6-4637-94fc-afd5a4661807"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1205.0,
+    "power_factor": 0.94,
+    "id": "f22e7998-068d-48eb-b5f3-6d7fd00d4a20"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.8,
+    "cumulative_energy": 1209.5,
+    "power_factor": 0.93,
+    "id": "2fbff411-a3b3-433a-a320-27c1d69b382a"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1214.0,
+    "power_factor": 0.96,
+    "id": "268729c5-ab6c-481e-b30b-ae950f36ac17"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1219.0,
+    "power_factor": 0.95,
+    "id": "3297a719-78e1-4a03-b6f9-fadec20ca3e6"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.5,
+    "cumulative_energy": 2500.0,
+    "power_factor": 0.92,
+    "id": "ca785165-dedf-4079-931e-da8d11a988b9"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.2,
+    "cumulative_energy": 2507.0,
+    "power_factor": 0.91,
+    "id": "7f212119-a3be-4a88-bcc3-66a29ace163c"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.0,
+    "cumulative_energy": 2514.0,
+    "power_factor": 0.93,
+    "id": "66eb980c-19ed-4d79-8632-5216da2cad64"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.3,
+    "cumulative_energy": 2521.0,
+    "power_factor": 0.94,
+    "id": "b6bc7aeb-0887-490d-95f5-edf08bca120a"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.1,
+    "cumulative_energy": 2528.0,
+    "power_factor": 0.92,
+    "id": "af18f46e-5687-40c9-8f5a-5578d0892b37"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "9922d14b-fa44-473c-a542-0e7a96682240"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1205.6,
+    "power_factor": 0.94,
+    "id": "e9d4d87f-6ee1-4d89-b183-f326e2f9d385"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.9,
+    "cumulative_energy": 1210.5,
+    "power_factor": 0.96,
+    "id": "7d7ae970-7cfa-4406-9617-7dfc820f90b7"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1215.8,
+    "power_factor": 0.95,
+    "id": "740c7773-c247-4e2d-8c9f-c5c185f6dbf0"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1220.8,
+    "power_factor": 0.97,
+    "id": "f45c27b3-28e0-4ebf-af9f-e259c09d67ea"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.8,
+    "cumulative_energy": 3500.2,
+    "power_factor": 0.92,
+    "id": "3fb4a761-0021-47cc-ba36-fee7cebe094c"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.5,
+    "cumulative_energy": 3507.7,
+    "power_factor": 0.93,
+    "id": "0d16ba77-6328-4c2c-8359-b6a6f297c0dc"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.9,
+    "cumulative_energy": 3515.6,
+    "power_factor": 0.91,
+    "id": "71dae583-bc61-46f5-8efd-a2346c32b082"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 8.0,
+    "cumulative_energy": 3523.6,
+    "power_factor": 0.94,
+    "id": "ca58cfe2-bf2e-4388-ae13-ad364a1aab68"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.7,
+    "cumulative_energy": 3531.3,
+    "power_factor": 0.95,
+    "id": "7ea604e7-a1c4-475d-bf8d-98e87d144109"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "8df5ad61-d130-4c78-b2af-8a27d309ce4f"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1205.5,
+    "power_factor": 0.94,
+    "id": "fb4b87db-dd40-4113-bc7d-a3f88788d964"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.8,
+    "cumulative_energy": 1210.3,
+    "power_factor": 0.93,
+    "id": "e4531930-c97d-4249-9163-7100d16d34a6"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1215.4,
+    "power_factor": 0.96,
+    "id": "51de6ae3-7d01-4b06-afe7-dcafebe534e0"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1220.7,
+    "power_factor": 0.95,
+    "id": "03f32435-674d-4b41-9a65-248a963a6ec6"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.5,
+    "cumulative_energy": 3500.2,
+    "power_factor": 0.98,
+    "id": "dd1d887b-38c8-4b6b-a0a9-4a8135d5370c"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.2,
+    "cumulative_energy": 3507.4,
+    "power_factor": 0.97,
+    "id": "a9296455-412f-4acf-9408-043e5b589042"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.0,
+    "cumulative_energy": 3514.4,
+    "power_factor": 0.96,
+    "id": "d14f18e3-744d-4e64-9e07-139ad4d3e005"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.3,
+    "cumulative_energy": 3521.7,
+    "power_factor": 0.97,
+    "id": "0f56995a-7853-4978-880a-f70776d95ae0"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.6,
+    "cumulative_energy": 3529.3,
+    "power_factor": 0.98,
+    "id": "e66f6deb-936d-436d-b2fb-16e7629267a9"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "ff0dc5da-58da-4db4-ba9f-0b219e33b2ff"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1201.2,
+    "power_factor": 0.94,
+    "id": "7376d3ab-da34-4036-b48d-1af32d5f6ffd"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.8,
+    "cumulative_energy": 2450.3,
+    "power_factor": 0.97,
+    "id": "75955330-2f6e-4f38-8d58-922954af0114"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.5,
+    "cumulative_energy": 2452.0,
+    "power_factor": 0.96,
+    "id": "7f0aa0a6-f1f9-4e44-b593-3d194938d9e5"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 3.1,
+    "cumulative_energy": 850.7,
+    "power_factor": 0.92,
+    "id": "de05be52-bed4-4472-a771-3ce7a4d9db1b"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 3.3,
+    "cumulative_energy": 851.5,
+    "power_factor": 0.93,
+    "id": "b5366a49-3973-4a39-ae8c-b4909c1173a1"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 6.4,
+    "cumulative_energy": 1800.2,
+    "power_factor": 0.98,
+    "id": "fb6881b1-813f-4f04-8148-700f702aeb56"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 1801.8,
+    "power_factor": 0.97,
+    "id": "9d1b4d59-c312-4605-9cf5-2d63560d1ec5"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 4.7,
+    "cumulative_energy": 1350.0,
+    "power_factor": 0.95,
+    "id": "717e67bf-ad62-4632-a257-9548ebdd62b3"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 4.5,
+    "cumulative_energy": 1351.2,
+    "power_factor": 0.94,
+    "id": "be98463f-e28d-4221-9337-645eca335cb9"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.5,
+    "cumulative_energy": 1200.75,
+    "power_factor": 0.95,
+    "id": "5875800f-5135-4800-9286-9f3a763088f7"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.7,
+    "cumulative_energy": 1205.2,
+    "power_factor": 0.94,
+    "id": "77154684-58e1-4dda-bf93-09580d6e0b32"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.3,
+    "cumulative_energy": 1209.5,
+    "power_factor": 0.96,
+    "id": "993b6f72-1284-45f8-8c6e-3784311d456e"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 1850.3,
+    "power_factor": 0.92,
+    "id": "96631e51-282e-40c1-a1e2-8e3c848cafa7"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 6.0,
+    "cumulative_energy": 1856.3,
+    "power_factor": 0.93,
+    "id": "1aa1e3da-7c1b-4345-b51f-379e87b9e9e1"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "METER003",
+    "instantaneous_power_kw": 3.8,
+    "cumulative_energy": 980.45,
+    "power_factor": 0.97,
+    "id": "b1fdc9bb-728f-486b-a95c-6f4a59779e60"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "METER003",
+    "instantaneous_power_kw": 3.9,
+    "cumulative_energy": 984.35,
+    "power_factor": 0.96,
+    "id": "dfa4b286-39d5-45b4-a61b-e2570aae6c57"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "METER004",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1500.6,
+    "power_factor": 0.94,
+    "id": "cfd3eb71-0790-4b51-aa66-bc02429c154a"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "METER004",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1505.9,
+    "power_factor": 0.95,
+    "id": "7e138015-5ca5-40e7-a2cc-6e1533d452ec"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "METER005",
+    "instantaneous_power_kw": 7.0,
+    "cumulative_energy": 2100.25,
+    "power_factor": 0.91,
+    "id": "f27b847e-33ed-45a0-aee3-d65e95564af1"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "eac7a608-319c-4fd9-8cb8-f6d0a283e5e5"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1205.0,
+    "power_factor": 0.94,
+    "id": "301be172-1301-4de3-a30e-01467f62484a"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.8,
+    "cumulative_energy": 1210.2,
+    "power_factor": 0.93,
+    "id": "0977e382-8606-403c-a517-162705731187"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.5,
+    "cumulative_energy": 2500.0,
+    "power_factor": 0.98,
+    "id": "64b1e058-006e-4bb7-8c4f-7b358a08e007"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 7.3,
+    "cumulative_energy": 2507.5,
+    "power_factor": 0.97,
+    "id": "1fb659e4-dd02-4e8b-bb37-aabcbe3b412b"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 3.1,
+    "cumulative_energy": 800.3,
+    "power_factor": 0.92,
+    "id": "16e35663-4728-46d4-8abe-9dfc0d6e345f"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 3.0,
+    "cumulative_energy": 803.4,
+    "power_factor": 0.91,
+    "id": "dde977c6-9612-4a88-83a2-625889bb893d"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 6.7,
+    "cumulative_energy": 1500.8,
+    "power_factor": 0.96,
+    "id": "6583c640-85bc-4636-9ee8-101646644aff"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 6.5,
+    "cumulative_energy": 1507.5,
+    "power_factor": 0.95,
+    "id": "513afb9a-414b-4f23-8760-7098f1ca3a52"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 2.8,
+    "cumulative_energy": 600.1,
+    "power_factor": 0.9,
+    "id": "552aecd6-ae48-445e-8301-1d5523aedbeb"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "abe0d675-d5bf-4940-bf5a-5812a9ca1ad7"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.8,
+    "cumulative_energy": 850.3,
+    "power_factor": 0.92,
+    "id": "15e74a14-9939-4f04-8682-ef2763acd2fd"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 7.1,
+    "cumulative_energy": 2100.7,
+    "power_factor": 0.98,
+    "id": "9a2819a1-3e43-4f6d-9537-2e1be523cc03"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.9,
+    "cumulative_energy": 1205.4,
+    "power_factor": 0.94,
+    "id": "a6c661fd-3a67-461b-9381-857d0d8d9ee9"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.5,
+    "cumulative_energy": 853.8,
+    "power_factor": 0.91,
+    "id": "eb85d897-60ba-4620-85c2-ee4a142f320b"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 6.8,
+    "cumulative_energy": 2107.5,
+    "power_factor": 0.97,
+    "id": "a0d89005-0768-4a1e-b9cb-f7a46eb878f6"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1210.4,
+    "power_factor": 0.95,
+    "id": "75106e95-73cd-446e-b51b-98ca1f8dc00b"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.7,
+    "cumulative_energy": 857.5,
+    "power_factor": 0.93,
+    "id": "a39230f2-d97b-475c-8e72-aed516a3f862"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 7.0,
+    "cumulative_energy": 2114.5,
+    "power_factor": 0.98,
+    "id": "930bc8c9-c485-424b-8478-caf83ea34269"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1215.5,
+    "power_factor": 0.96,
+    "id": "6ed323a2-f530-428e-9fad-5f3ec38ec79a"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "bfafefa0-b25e-43cd-9719-cf4c82b6813e"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.0,
+    "cumulative_energy": 1205.0,
+    "power_factor": 0.94,
+    "id": "b960a62e-628b-4b2b-9ba9-64601bced1dd"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.8,
+    "cumulative_energy": 1209.5,
+    "power_factor": 0.93,
+    "id": "73afd46b-107a-4554-83c8-4d87e3b50861"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1214.0,
+    "power_factor": 0.96,
+    "id": "9dbf9c63-829f-4f40-9b6b-0ab2c3dab304"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1219.0,
+    "power_factor": 0.95,
+    "id": "14d9d1bc-121c-43bc-94f7-4008dff429f2"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.5,
+    "cumulative_energy": 2500.0,
+    "power_factor": 0.98,
+    "id": "18b7fc8f-ee5a-4117-8f5a-d99b66eb299f"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.2,
+    "cumulative_energy": 2507.0,
+    "power_factor": 0.97,
+    "id": "6580cf72-20d9-4c65-808c-fbb9d5dc3ca4"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.0,
+    "cumulative_energy": 2514.0,
+    "power_factor": 0.96,
+    "id": "1d4928c2-f58a-46e7-927a-eb10180a2390"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.3,
+    "cumulative_energy": 2521.0,
+    "power_factor": 0.97,
+    "id": "d9f0cb62-1b2e-4a6c-8982-9beac048c5b3"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 7.1,
+    "cumulative_energy": 2528.0,
+    "power_factor": 0.95,
+    "id": "ee448ab1-9069-4e9e-adbe-dca07c01ee22"
+  },
+  {
+    "timestamp": "2023-11-01T08:00:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.2,
+    "cumulative_energy": 1200.5,
+    "power_factor": 0.95,
+    "id": "859c57b4-d68c-44c3-90b1-4becc5b3f254"
+  },
+  {
+    "timestamp": "2023-11-01T08:15:00Z",
+    "meter_id": "METER001",
+    "instantaneous_power_kw": 4.5,
+    "cumulative_energy": 1204.7,
+    "power_factor": 0.94,
+    "id": "7907f258-3e75-4c5d-b98c-761aa220abf7"
+  },
+  {
+    "timestamp": "2023-11-01T08:30:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 3.8,
+    "cumulative_energy": 980.3,
+    "power_factor": 0.93,
+    "id": "1458f653-fadd-4b8c-99b2-3d6aad2dab20"
+  },
+  {
+    "timestamp": "2023-11-01T08:45:00Z",
+    "meter_id": "METER002",
+    "instantaneous_power_kw": 3.6,
+    "cumulative_energy": 983.9,
+    "power_factor": 0.92,
+    "id": "2325b9c9-4ce9-40cf-aa2c-fbf599b22a64"
+  },
+  {
+    "timestamp": "2023-11-01T09:00:00Z",
+    "meter_id": "METER003",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1500.2,
+    "power_factor": 0.96,
+    "id": "563b6e07-1704-4899-9185-46409f511975"
+  },
+  {
+    "timestamp": "2023-11-01T09:15:00Z",
+    "meter_id": "METER003",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1505.5,
+    "power_factor": 0.97,
+    "id": "64a0abeb-b487-417a-ae54-347bd5ce1bee"
+  },
+  {
+    "timestamp": "2023-11-01T09:30:00Z",
+    "meter_id": "METER004",
+    "instantaneous_power_kw": 2.9,
+    "cumulative_energy": 750.8,
+    "power_factor": 0.91,
+    "id": "0a045d43-ef99-4aa9-b878-5b46267745b2"
+  },
+  {
+    "timestamp": "2023-11-01T09:45:00Z",
+    "meter_id": "METER004",
+    "instantaneous_power_kw": 2.7,
+    "cumulative_energy": 753.5,
+    "power_factor": 0.9,
+    "id": "752547e8-7c38-41ed-ae06-e8a1f97656cd"
+  },
+  {
+    "timestamp": "2023-11-01T10:00:00Z",
+    "meter_id": "METER005",
+    "instantaneous_power_kw": 6.0,
+    "cumulative_energy": 2000.0,
+    "power_factor": 0.98,
+    "id": "d38fed41-52ea-427d-bdf7-be60c0200031"
+  },
+  {
+    "timestamp": "2023-11-01T10:15:00Z",
+    "meter_id": "METER005",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 2006.2,
+    "power_factor": 0.99,
+    "id": "d3333136-31d1-479f-8031-c30c39e469ea"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.5,
+    "cumulative_energy": 1200.3,
+    "power_factor": 0.95,
+    "id": "ea84e0ce-9a67-45b9-bae1-4b66695316c4"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.7,
+    "cumulative_energy": 1205.0,
+    "power_factor": 0.94,
+    "id": "2d64ddb1-7ee6-4aeb-9779-820f61bfbff3"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.2,
+    "cumulative_energy": 850.6,
+    "power_factor": 0.97,
+    "id": "8a11f12a-76d0-4d43-ba67-0298e396d12d"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.0,
+    "cumulative_energy": 853.6,
+    "power_factor": 0.96,
+    "id": "bb34b727-90d2-494b-815d-1dac469d78f0"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 1500.2,
+    "power_factor": 0.93,
+    "id": "24cb3e54-a726-400a-8206-ffd5582f8631"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 5.3,
+    "cumulative_energy": 1505.5,
+    "power_factor": 0.94,
+    "id": "984735da-eb99-4e9d-be44-712e38e85558"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 2.8,
+    "cumulative_energy": 700.8,
+    "power_factor": 0.98,
+    "id": "841638f9-3484-401e-a32f-ec71751b9937"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 2.9,
+    "cumulative_energy": 703.7,
+    "power_factor": 0.97,
+    "id": "87c4a516-59c9-41be-bfae-b5546f9509db"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 6.0,
+    "cumulative_energy": 2000.0,
+    "power_factor": 0.92,
+    "id": "41b5fc71-639a-4eae-9399-3bed62056b81"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 2006.2,
+    "power_factor": 0.91,
+    "id": "29d010ee-8a8b-451f-af1b-41247cf079ea"
+  },
+  {
+    "timestamp": "2023-10-01T08:00:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.25,
+    "cumulative_energy": 1250.75,
+    "power_factor": 0.95,
+    "id": "cd1c3f1f-cd5a-41e4-ae99-403af732fefe"
+  },
+  {
+    "timestamp": "2023-10-01T08:15:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.3,
+    "cumulative_energy": 1254.05,
+    "power_factor": 0.94,
+    "id": "51829f71-6ce5-4c2c-8626-fc9bc08a002d"
+  },
+  {
+    "timestamp": "2023-10-01T08:30:00Z",
+    "meter_id": "MTR001",
+    "instantaneous_power_kw": 4.18,
+    "cumulative_energy": 1258.23,
+    "power_factor": 0.96,
+    "id": "24bcfd73-a4d3-419c-8441-d19a2347ca5a"
+  },
+  {
+    "timestamp": "2023-10-01T08:45:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.75,
+    "cumulative_energy": 980.5,
+    "power_factor": 0.93,
+    "id": "2909997e-f447-4d02-bb1e-90953e8a1e64"
+  },
+  {
+    "timestamp": "2023-10-01T09:00:00Z",
+    "meter_id": "MTR002",
+    "instantaneous_power_kw": 3.82,
+    "cumulative_energy": 984.32,
+    "power_factor": 0.92,
+    "id": "8228958c-97d4-4f44-b430-e2d6a8b2586a"
+  },
+  {
+    "timestamp": "2023-10-01T09:15:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 5.1,
+    "cumulative_energy": 2100.45,
+    "power_factor": 0.97,
+    "id": "ca24261e-9bdf-44fb-bd82-cafefaab202c"
+  },
+  {
+    "timestamp": "2023-10-01T09:30:00Z",
+    "meter_id": "MTR003",
+    "instantaneous_power_kw": 5.05,
+    "cumulative_energy": 2105.5,
+    "power_factor": 0.96,
+    "id": "3b235770-74c8-42c3-8233-b5bc888db8f9"
+  },
+  {
+    "timestamp": "2023-10-01T09:45:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 2.9,
+    "cumulative_energy": 750.2,
+    "power_factor": 0.91,
+    "id": "1cf8fb3e-10c1-4d6b-af38-cb8e60793788"
+  },
+  {
+    "timestamp": "2023-10-01T10:00:00Z",
+    "meter_id": "MTR004",
+    "instantaneous_power_kw": 2.85,
+    "cumulative_energy": 753.05,
+    "power_factor": 0.9,
+    "id": "69ac50e6-5392-4e43-87b7-853796255bc0"
+  },
+  {
+    "timestamp": "2023-10-01T10:15:00Z",
+    "meter_id": "MTR005",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 3200.8,
+    "power_factor": 0.98,
+    "id": "e045d05b-12b8-4ad8-aaf5-09423c2c7171"
+  },
+  {
+    "timestamp": "2025-01-01T10:15:00Z",
+    "meter_id": "MTR-1001",
+    "instantaneous_power_kw": 5.5,
+    "cumulative_energy": 134.9,
+    "power_factor": 0.98,
+    "id": "bc4ee591-e0b4-4014-bf04-02ca5e186221"
+  },
+  {
+    "timestamp": "2025-01-01T10:30:00Z",
+    "meter_id": "MTR-1001",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 140.1,
+    "power_factor": 0.97,
+    "id": "8bf38081-7516-4b99-8f6c-3c02a4a02a6d"
+  }
+]

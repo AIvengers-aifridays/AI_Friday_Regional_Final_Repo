@@ -1,0 +1,1082 @@
+[
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "3b9cdbb0-41e3-4f35-8edf-e3a2dc5a51d7"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Peak",
+    "id": "b09ccad4-a3dc-4d65-bf50-cc01e555b29b"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "f086f64e-6a1b-45e0-8d36-c5a3215cb552"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "4a83127b-1c89-4a73-a54f-9d7f78c7fffd"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.5,
+    "tariff_type": "Off-Peak",
+    "id": "ea9d5383-56d3-4481-9a63-c603b4f28474"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.08,
+    "demand_charge": 3.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "6c71908e-cb17-45a7-a6ff-355ed55b2d0a"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "06:00",
+    "end_time": "10:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "eebb76ed-3e0c-4601-8427-2921084d2cb9"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "10:00",
+    "end_time": "14:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "6e174146-3e22-4682-a13d-a079489b635f"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.5,
+    "tariff_type": "Standard",
+    "id": "49bd3a6d-6f7c-4dd8-8e5d-f44ee34ead39"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.19,
+    "demand_charge": 7.0,
+    "tariff_type": "Peak",
+    "id": "372a0ca0-8917-4d90-a3f5-f6759162f73b"
+  },
+  {
+    "tariff_id": 1,
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "62bb21d1-9b74-4c57-8cb4-83608d1b1f01"
+  },
+  {
+    "tariff_id": 2,
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Mid-Peak",
+    "id": "7b305ce1-7f09-4461-8fd6-09aa70d4cf85"
+  },
+  {
+    "tariff_id": 3,
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "f8371414-a43b-4765-90be-304affafc17a"
+  },
+  {
+    "tariff_id": 4,
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "922b4254-77b7-4d6f-bf84-402225819b0a"
+  },
+  {
+    "tariff_id": 5,
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.5,
+    "tariff_type": "Off-Peak",
+    "id": "0bbfbca6-a9ea-4af8-8277-2a7f920319a1"
+  },
+  {
+    "tariff_id": 6,
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "8fa95a09-1d64-4a72-977e-3d90ecda9bf3"
+  },
+  {
+    "tariff_id": 7,
+    "start_time": "06:00",
+    "end_time": "10:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "d925d425-a19c-4df9-a008-bdedae8861e3"
+  },
+  {
+    "tariff_id": 8,
+    "start_time": "10:00",
+    "end_time": "14:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "87cb5c7d-0ce1-408d-aa59-be495ea1865c"
+  },
+  {
+    "tariff_id": 9,
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Mid-Peak",
+    "id": "90186f97-596b-4196-aa6a-dc7c08df7883"
+  },
+  {
+    "tariff_id": 10,
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.19,
+    "demand_charge": 8.5,
+    "tariff_type": "Peak",
+    "id": "b6f71a6f-ac36-4e6b-bb48-58d8560fd5e6"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "bcb7adbc-d064-496b-8ca9-3619285e4b72"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "42e086ba-bdd8-4733-b4fd-38d4c97d224b"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "8aba1de8-2aae-4870-ae7c-e48f045169a8"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "e6503a76-7a30-4847-828d-bb45fafb8a56"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "1ca30a98-fa7f-4946-ba70-97fbab5101b5"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "06:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "62819671-c9a4-4af1-b520-701670a104e2"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "8f52862f-3430-41c1-88b6-60a9d1798a42"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "37e150a9-7806-4ff3-9313-8e1666b4ef01"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "22:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.13,
+    "demand_charge": 5.5,
+    "tariff_type": "Off-Peak",
+    "id": "d1a7b8a7-f272-4b8e-b889-62490c9eebe6"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "09:00",
+    "end_time": "17:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Standard",
+    "id": "333a99d0-94ca-40ba-bd90-2262da1200cf"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "1dba2d11-b2d1-4d8b-8d74-ffe34a6f5468"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Mid-Peak",
+    "id": "14239f8d-c094-4932-bcbe-d7254bae28e2"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "8839eb95-0dfe-4d18-86a3-3f81dcb4a754"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "e0c6a09a-b9a7-4de1-879b-d16688744543"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.5,
+    "tariff_type": "Off-Peak",
+    "id": "6dc575d6-0942-4413-89fa-ed435ffc9f26"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "5bc1171d-26f5-4c2d-9476-1bc27902b688"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "06:00",
+    "end_time": "10:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "375933f6-e586-48ce-9174-04161d911714"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "10:00",
+    "end_time": "14:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "35cf3669-1b99-41ad-a5d8-af4ff2346025"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Mid-Peak",
+    "id": "a11a6e2d-faee-409b-bbae-7be6e6ad37b3"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.19,
+    "demand_charge": 8.5,
+    "tariff_type": "Peak",
+    "id": "2b427cf7-38ae-4d61-bf93-87345ae0a864"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "c401bfb8-384c-4094-8d18-c14e54dd5931"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "94edfcf5-0cdf-4843-b720-5fec2aac04bd"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "b8f0d59c-5eb5-4080-b537-bea36d37e355"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "2c10304b-5e18-4a3b-95e4-ede9eabd0cf0"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "7b6a6037-e916-4574-bf51-b2e077eb8794"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "06:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "fa426970-7c2e-4c7f-9bfd-e9cc8b0c9451"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "f8f403a6-b397-41d2-ac6c-7ead10703af6"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "7909add6-7899-4b58-a455-c56c4b4922d3"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "22:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.13,
+    "demand_charge": 5.5,
+    "tariff_type": "Off-Peak",
+    "id": "c205e596-90b7-4ac3-a537-f04ce3b0a1d7"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "09:00",
+    "end_time": "17:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Standard",
+    "id": "41d7eff3-88a4-442e-809a-5b8623906458"
+  },
+  {
+    "tariff_id": 1,
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "48c8001f-7099-4206-a63b-f7b2e5741d44"
+  },
+  {
+    "tariff_id": 2,
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "6b46391b-3b64-4941-ae2d-8472af21a57f"
+  },
+  {
+    "tariff_id": 3,
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "6851094a-c79f-46a2-b937-e803b115c149"
+  },
+  {
+    "tariff_id": 4,
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "fd8aa044-a545-47d2-81cc-28e585b02bd2"
+  },
+  {
+    "tariff_id": 5,
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "eb0d27e8-bb1f-4997-b9b1-f2c236ece1e2"
+  },
+  {
+    "tariff_id": 6,
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "c48f79a4-3b09-4dd5-9372-ed42fc38811e"
+  },
+  {
+    "tariff_id": 7,
+    "start_time": "06:00",
+    "end_time": "09:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "bf4831b0-6589-4f06-af41-7ce36bb5bbaf"
+  },
+  {
+    "tariff_id": 8,
+    "start_time": "09:00",
+    "end_time": "17:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "b3c0c292-fd05-4ce9-9fde-66b9b31064c4"
+  },
+  {
+    "tariff_id": 9,
+    "start_time": "17:00",
+    "end_time": "21:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 12.0,
+    "tariff_type": "Peak",
+    "id": "3d23b80f-16e2-4074-975c-16f65835fd0a"
+  },
+  {
+    "tariff_id": 10,
+    "start_time": "21:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "b9eaec4b-d045-42d0-b2fa-48bd2fb56f02"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "7fcca216-b251-43eb-807b-61d3ddfe5674"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "433e8917-255c-4ee7-9fb6-cca27724db66"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "e8a831e5-cd15-4fe4-9d3e-7bb93edfee3d"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "f279f588-5c0b-4131-b244-4a30f72e2875"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "8b7cb81b-68d2-4296-a772-8432df9e39e4"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "3b4cdf36-b4cc-459d-98b5-824eea184bf2"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "06:00",
+    "end_time": "10:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "b54995d2-074a-412e-b4df-2590d28b8036"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "10:00",
+    "end_time": "14:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "a7af9572-1974-4f8b-b97a-946c96d6e9a9"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "16739e08-cf70-4915-a44b-a4d5ec896029"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "18:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "f38c59ef-948a-4802-80ba-88ec0d87a6a5"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "bce4032d-ec73-47f5-aebc-03473dcee963"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "6091f58b-4b72-49b2-84ad-741dfd47496a"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "512d6b6e-1f10-4607-aa2f-e8f37668cd79"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "9095241e-133d-4cae-8430-0038b9caa482"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "234f3368-86e4-468c-bf03-f7c072772296"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "06:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "84df3aa5-fe4a-4835-9736-029d7cb4d446"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "3ed1de6f-f24e-4ec4-a1e3-6ce7ef0a2f0d"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "946b4c97-fd4f-4c11-9ab9-c2d7f9d8aa45"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "22:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.13,
+    "demand_charge": 5.5,
+    "tariff_type": "Off-Peak",
+    "id": "bd84c92c-8036-4b93-b054-c4cd0ade1a32"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "09:00",
+    "end_time": "17:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Standard",
+    "id": "fec3b7dc-5b23-4055-b5d5-38f2aa57368e"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "0d25e114-fc90-48a4-8cf5-c1ede23a420b"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "02337578-abd3-4e54-8679-fef9b0104c89"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "7657ffc1-c309-47f9-be73-943c8c5cceae"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "1c86feb2-c79e-4b70-85bd-d650796b88ed"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "d6e4e60f-eb24-4d8e-a870-fc208c05c3f8"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "06:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "6110818a-21a4-4f35-9130-b79d54fb5649"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "63f92f9b-080a-40c4-9173-3736ec4d6a7f"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "45af4f82-4dd5-41d8-aaa1-24b995dd9abd"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "22:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.5,
+    "tariff_type": "Standard",
+    "id": "89bc5819-341e-4389-9441-a987db841aab"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "00:00",
+    "end_time": "24:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Flat Rate",
+    "id": "c9d63122-3a05-46a5-a52c-af01ad182c63"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "6048a559-744b-4010-b215-ffb6c4c65a8f"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Mid-Peak",
+    "id": "189a3b34-d9e1-452c-9060-94c130395a77"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "12:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "1be1506e-c540-4fa4-bdcc-34c5250d745b"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "cd1eaebd-6cb9-47ff-9823-9f8790f141f5"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.13,
+    "demand_charge": 5.5,
+    "tariff_type": "Off-Peak",
+    "id": "c317eafe-9fc1-429e-951d-97745e70d49e"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "550287de-ec59-49e3-8f97-c3065e5ad705"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "06:00",
+    "end_time": "10:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Mid-Peak",
+    "id": "e9eda95d-a71b-424c-9073-06181a16b5df"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "10:00",
+    "end_time": "14:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "8e795882-713d-4745-97e6-d7e0159a1658"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "14:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "be95e189-d39d-4be4-b2d8-899c714e40e8"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "18:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "deace37a-cf55-455a-aec8-01b1eb43d7fd"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "49141caf-a354-4508-b718-3c3d65ab9f5e"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "4bff3518-2309-4ffc-be29-6192aecad66b"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "f188858c-b256-49b3-862b-f459ba0d1adb"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "56dc51c2-0ace-4b22-bb1d-38aa4f960d81"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "053addfc-1dc3-4d9e-abeb-c35a876b9d15"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "06:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "bedf47ad-0063-4326-9b94-464ae37d9ec1"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "96aa6b8d-8ae9-434c-9d69-7d3f3368710c"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "e4fb344e-4b11-4d55-9f4b-c9a7dc4490f8"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "22:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.5,
+    "tariff_type": "Standard",
+    "id": "277c887c-af91-4c8a-aa8e-3a3c737d0456"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "00:00",
+    "end_time": "24:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Flat Rate",
+    "id": "dbd4d500-e0b8-459b-b5f1-df83214f481e"
+  },
+  {
+    "tariff_id": "T001",
+    "start_time": "00:00",
+    "end_time": "08:00",
+    "tariff_rate": 0.12,
+    "demand_charge": 5.0,
+    "tariff_type": "Off-Peak",
+    "id": "a1fb2b7d-e964-45b8-8b3c-1e5895078d89"
+  },
+  {
+    "tariff_id": "T002",
+    "start_time": "08:00",
+    "end_time": "16:00",
+    "tariff_rate": 0.18,
+    "demand_charge": 7.5,
+    "tariff_type": "Standard",
+    "id": "47e3a686-1ec6-4658-9659-6a543aec659f"
+  },
+  {
+    "tariff_id": "T003",
+    "start_time": "16:00",
+    "end_time": "20:00",
+    "tariff_rate": 0.25,
+    "demand_charge": 10.0,
+    "tariff_type": "Peak",
+    "id": "d24da6b1-e40b-433c-bace-cf5c9728cfa9"
+  },
+  {
+    "tariff_id": "T004",
+    "start_time": "20:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.15,
+    "demand_charge": 6.0,
+    "tariff_type": "Standard",
+    "id": "15095f88-ccc5-4a76-8413-925df93faf42"
+  },
+  {
+    "tariff_id": "T005",
+    "start_time": "00:00",
+    "end_time": "06:00",
+    "tariff_rate": 0.1,
+    "demand_charge": 4.0,
+    "tariff_type": "Super Off-Peak",
+    "id": "dec37959-1f59-4287-9e23-18add2026143"
+  },
+  {
+    "tariff_id": "T006",
+    "start_time": "06:00",
+    "end_time": "12:00",
+    "tariff_rate": 0.16,
+    "demand_charge": 6.5,
+    "tariff_type": "Standard",
+    "id": "a2019a50-1873-427f-b7f0-777c79d40944"
+  },
+  {
+    "tariff_id": "T007",
+    "start_time": "12:00",
+    "end_time": "18:00",
+    "tariff_rate": 0.2,
+    "demand_charge": 8.0,
+    "tariff_type": "Peak",
+    "id": "3fd16adc-02a4-4f4c-a26d-58b88abebff1"
+  },
+  {
+    "tariff_id": "T008",
+    "start_time": "18:00",
+    "end_time": "22:00",
+    "tariff_rate": 0.22,
+    "demand_charge": 9.0,
+    "tariff_type": "Peak",
+    "id": "e46c7c37-bf48-4811-bce5-8a22102a85c4"
+  },
+  {
+    "tariff_id": "T009",
+    "start_time": "22:00",
+    "end_time": "00:00",
+    "tariff_rate": 0.14,
+    "demand_charge": 5.5,
+    "tariff_type": "Standard",
+    "id": "1db8598d-d2d9-4e86-9c86-0e62cd83dec5"
+  },
+  {
+    "tariff_id": "T010",
+    "start_time": "09:00",
+    "end_time": "17:00",
+    "tariff_rate": 0.17,
+    "demand_charge": 7.0,
+    "tariff_type": "Standard",
+    "id": "225f77a0-87f6-4bf1-b8b5-ec31c708b750"
+  }
+]

@@ -1,0 +1,978 @@
+[
+  {
+    "timestamp": "2025-01-01T10:15:00Z",
+    "meter_id": "MTR-1001",
+    "instantaneous_power_kw": 5.5,
+    "cumulative_energy": 134.9,
+    "power_factor": 0.98,
+    "id": "feae6e7b-08cb-4224-be10-d2fec895784d"
+  },
+  {
+    "timestamp": "2025-01-01T10:30:00Z",
+    "meter_id": "MTR-1001",
+    "instantaneous_power_kw": 6.2,
+    "cumulative_energy": 140.1,
+    "power_factor": 0.97,
+    "id": "1e9de29e-2986-4a69-a8f8-801d4381b489"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "ea572406-50f9-4d74-b7f1-0439dc1a5241"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "91705e4e-a131-4aae-a327-87fe655d1806"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Warehouse",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.5,
+    "id": "7d87023d-4b9c-4668-b088-cd29dbbefca4"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.8,
+    "id": "db1ab129-0c8d-4453-97e6-19d451793f1a"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Manufacturing",
+    "zone_orientation": "North",
+    "thermal_mass_index": 1.9,
+    "id": "eca89146-ed0f-4f6f-ad27-dcfa0c174cd5"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Lab",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.5,
+    "id": "440725ec-4dad-41ef-8937-3d58cf8eefc8"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1800,
+    "zone_function": "Gym",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.1,
+    "id": "00917ee2-910b-490d-aaf9-5db46fb7821b"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Lobby",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.0,
+    "id": "ed5dc543-fbbf-4cf7-99ad-bf62a96f8842"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1100,
+    "zone_function": "Server Room",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "dba558f8-fbd1-430d-894b-d94ff0dce3e0"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 1300,
+    "zone_function": "Library",
+    "zone_orientation": "South",
+    "thermal_mass_index": 3.7,
+    "id": "a87c5cad-b2b3-46c9-829e-7609b95d42ef"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "02390f6b-dd67-4a66-b2b2-c78d0fe6eefb"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "e2ba9243-3144-4c64-99a0-302bdded0009"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Warehouse",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.5,
+    "id": "9461d63e-23dd-4935-87ae-78247bd72380"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.8,
+    "id": "dfcdf08b-7cfb-4036-8a01-3a44d8dc84f9"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Manufacturing",
+    "zone_orientation": "North",
+    "thermal_mass_index": 1.9,
+    "id": "a7b02897-59e0-47da-906a-650da9cb11a5"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Lab",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.5,
+    "id": "593e879e-c91b-4cbb-ba47-010b3eacb006"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1800,
+    "zone_function": "Storage",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.1,
+    "id": "9fff1cfd-968a-47da-abdb-02ed21be198d"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Lobby",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.0,
+    "id": "ddce3368-63d2-40d9-949f-a4d2908a4183"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1100,
+    "zone_function": "Restroom",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.7,
+    "id": "59912a0f-e621-49a9-b68d-3fafa9e5c983"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 1300,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 5.0,
+    "id": "f49e1aba-c4c0-426b-a4be-39b9773d029a"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "c80d9bda-467c-407c-846a-81c36ce36a21"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "1238e157-01a5-4b24-8a43-b6e25ba89c7b"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "a8afb32f-6c6f-4aab-971e-94d941af8985"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "99903e4d-ca2a-41cf-8884-e967b389b525"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "51db656a-2662-48d7-a536-8f4c6295e913"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Lab",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.3,
+    "id": "df7d9bfe-d6ec-43a6-939e-7392ad222df8"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1100,
+    "zone_function": "Library",
+    "zone_orientation": "East",
+    "thermal_mass_index": 3.0,
+    "id": "eab04f59-1266-407f-a4de-2873ca489049"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 900,
+    "zone_function": "Gym",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.7,
+    "id": "cb2211d2-0352-4c1a-bdb5-7f50c6bfaf56"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1300,
+    "zone_function": "Cafeteria",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.9,
+    "id": "797b6a3a-dd43-470f-80f7-a4207fa73a02"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 500,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.8,
+    "id": "56c43ace-e5be-407d-9156-d8a5e1cb4c9f"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "aa30c72b-0310-41c6-91c5-7ecdde07b882"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "dcc34e71-85dd-45e5-92e7-04b9dfb880aa"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Warehouse",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.5,
+    "id": "573166fd-c778-4e2f-ad2c-a94233af4e2e"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.8,
+    "id": "7a870453-272f-44ec-8b93-278260c7b0ca"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Manufacturing",
+    "zone_orientation": "North",
+    "thermal_mass_index": 1.9,
+    "id": "dec1351b-1655-4439-aaa7-58fe4a5cdc88"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Lab",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.5,
+    "id": "71b364e5-73fd-42fd-9326-572fa558f231"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1800,
+    "zone_function": "Gym",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.1,
+    "id": "8289625c-3762-40a0-9068-f892a4e7a153"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 500,
+    "zone_function": "Server Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 5.0,
+    "id": "05e15c6d-fb02-4399-b4db-de3709a9dbca"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 3000,
+    "zone_function": "Retail",
+    "zone_orientation": "North",
+    "thermal_mass_index": 2.8,
+    "id": "1c8e7277-3cd6-4e34-ac7b-0832531ea627"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 900,
+    "zone_function": "Lounge",
+    "zone_orientation": "South",
+    "thermal_mass_index": 3.5,
+    "id": "333f90c5-7e00-4509-bcce-d53ee019ea48"
+  },
+  {
+    "zone_id": "Z1",
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "c2ddfa86-1396-449e-b0d8-fa3def1ce97a"
+  },
+  {
+    "zone_id": "Z2",
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "c9027a1b-1ce1-490b-b6ca-74f124c33aea"
+  },
+  {
+    "zone_id": "Z3",
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "1892cd30-8eaf-43d8-84ea-b6233b744124"
+  },
+  {
+    "zone_id": "Z4",
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "e8d65098-e289-4d81-bc8d-e316f4a9fcca"
+  },
+  {
+    "zone_id": "Z5",
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "c590b663-dc36-4fd4-92f0-4b3e4ac55c7c"
+  },
+  {
+    "zone_id": "Z6",
+    "zone_square_footage": 750,
+    "zone_function": "Restroom",
+    "zone_orientation": "South",
+    "thermal_mass_index": 2.3,
+    "id": "1c7846b4-c9ea-4376-b695-87b36517e15b"
+  },
+  {
+    "zone_id": "Z7",
+    "zone_square_footage": 1800,
+    "zone_function": "Gym",
+    "zone_orientation": "East",
+    "thermal_mass_index": 4.7,
+    "id": "c6d54e17-3485-4be3-8f2d-8a1ffd85c08f"
+  },
+  {
+    "zone_id": "Z8",
+    "zone_square_footage": 950,
+    "zone_function": "Library",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.0,
+    "id": "a982e0bc-96a5-4dda-bb08-e52d32e53bda"
+  },
+  {
+    "zone_id": "Z9",
+    "zone_square_footage": 1100,
+    "zone_function": "Lab",
+    "zone_orientation": "North",
+    "thermal_mass_index": 4.5,
+    "id": "f7a845d8-d44e-4e84-a90c-1818b1048883"
+  },
+  {
+    "zone_id": "Z10",
+    "zone_square_footage": 1300,
+    "zone_function": "Cafeteria",
+    "zone_orientation": "South",
+    "thermal_mass_index": 3.8,
+    "id": "4956b5ba-8d4f-4532-9ad3-94a2670ae0a4"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "fca8d446-70c2-4883-ab4a-5515dd4b1728"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "b4b4be06-8e06-4d59-a757-e56fbbb5f6b9"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "a032eadf-8e3a-4bee-b017-00f65facdb71"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "e337c839-1355-446e-9384-d3a9dcf31023"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "3395e22c-2b4a-44c4-ac93-6594a359a946"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 6.2,
+    "id": "432cf8e1-c0a9-419a-951d-562c457551ea"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1100,
+    "zone_function": "Lab",
+    "zone_orientation": "East",
+    "thermal_mass_index": 4.7,
+    "id": "fb8826e7-fd54-4063-b77a-e2660d8e2955"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Gym",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.9,
+    "id": "7f231efa-d677-4bbc-939d-a3a03a060bdc"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1300,
+    "zone_function": "Library",
+    "zone_orientation": "North",
+    "thermal_mass_index": 2.5,
+    "id": "2f697749-432b-4fd9-a64c-996fecdf7a8b"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 500,
+    "zone_function": "Storage",
+    "zone_orientation": "South",
+    "thermal_mass_index": 1.8,
+    "id": "ced4fca2-93ab-452e-96c7-42a818431456"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "481c8cbd-fdfd-4f8d-ba38-f0dd65b6ec3a"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "4ace995b-21cb-4d71-9d29-e8e452b91c27"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "1332103e-bfb2-4d8c-bc7c-5f338820d352"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "45a6cb39-3d7d-49e1-b9ea-623d05ca31b4"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 1.9,
+    "id": "090254c3-ad73-4461-b1d3-ec31bcdd4847"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 5.0,
+    "id": "1531c86f-90f2-4498-8f13-d06c28dea3fb"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1100,
+    "zone_function": "Gym",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.3,
+    "id": "c99007f8-c4f1-4f6c-8aff-ba76b8a5ef36"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 500,
+    "zone_function": "Storage",
+    "zone_orientation": "West",
+    "thermal_mass_index": 1.5,
+    "id": "6526a6f7-238d-42c4-93af-e67aa43e362a"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1800,
+    "zone_function": "Workshop",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.7,
+    "id": "944dca28-ff44-406c-8fcd-bb89fc475685"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 950,
+    "zone_function": "Lab",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.4,
+    "id": "f6e5e8bf-13f4-431a-8bee-e0bfa60a8a84"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "a9f7a5b4-9164-4425-a2c2-b7adf6d83562"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "40b1cf69-d844-42cc-a5ce-ee6798369571"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "42b3b1b5-50d2-4506-9c1b-7e24f1cd20cd"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "19cacfc7-2624-4b2c-bd78-b968e2354dea"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 1.9,
+    "id": "653857fa-917f-4f2f-8546-2573ba534b86"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 5.0,
+    "id": "f8d4d884-e847-4695-ae11-8817f0b082f0"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1100,
+    "zone_function": "Lab",
+    "zone_orientation": "East",
+    "thermal_mass_index": 3.7,
+    "id": "776b2f3a-cbcf-44c9-8a5c-93d915e71146"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Library",
+    "zone_orientation": "West",
+    "thermal_mass_index": 2.5,
+    "id": "3fcb8b9c-5c99-4a27-974a-17585db8da42"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1300,
+    "zone_function": "Gym",
+    "zone_orientation": "North",
+    "thermal_mass_index": 2.1,
+    "id": "d73236c5-1144-41dd-a813-4a0699507c4b"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 500,
+    "zone_function": "Storage",
+    "zone_orientation": "South",
+    "thermal_mass_index": 1.5,
+    "id": "de3354a7-a5f3-4d45-8701-fd793bc09f39"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "27c668e8-2294-4223-a0ab-a8ee11ced277"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "b2a90784-c73c-403c-900e-716bd16af2f3"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "6d1510bc-ab80-4ce4-a838-60f24b18dd60"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 2.5,
+    "id": "1f043ce0-94fb-47fe-83f0-8af0b73560ad"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "2658ccfb-7610-469a-93fe-539b3e7b9f08"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Restroom",
+    "zone_orientation": "East",
+    "thermal_mass_index": 1.8,
+    "id": "cbec00de-0864-4bfa-8436-d24b51924aae"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1800,
+    "zone_function": "Gym",
+    "zone_orientation": "South",
+    "thermal_mass_index": 3.7,
+    "id": "71240353-ed90-4835-bcca-a64d1715345a"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 500,
+    "zone_function": "Server Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 4.5,
+    "id": "c520f570-07b2-44ae-83b1-7e8f66c06bdc"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 950,
+    "zone_function": "Library",
+    "zone_orientation": "North",
+    "thermal_mass_index": 2.9,
+    "id": "81accec3-5b3f-432c-8bef-5ad528ebd2e9"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 1100,
+    "zone_function": "Classroom",
+    "zone_orientation": "East",
+    "thermal_mass_index": 3.1,
+    "id": "0ed1c866-7818-4002-b99a-e313f49b4c16"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "8255f3cf-52d6-4d08-9cbf-59f24c82755a"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "a8d86ab8-41d1-4a14-ae81-6dcfcd252831"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "0d577783-66a3-45a5-a6e0-25da0952ff2d"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "5b517bc8-8831-40a7-9bd9-eefd00c76768"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "97880776-8e5a-4204-a3b8-efefd7ce9db0"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.7,
+    "id": "7315ac77-d7b3-4bd3-8768-f3ef738b660f"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1100,
+    "zone_function": "Lab",
+    "zone_orientation": "East",
+    "thermal_mass_index": 3.9,
+    "id": "f913faf4-f430-4ae8-86b3-0b30151c8dc9"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Gym",
+    "zone_orientation": "West",
+    "thermal_mass_index": 2.5,
+    "id": "b74bca25-aeaf-47e8-93a9-5e9bae6ad03a"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1800,
+    "zone_function": "Cafeteria",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.0,
+    "id": "89ad0a9c-8ac0-47cf-a5e5-69cc5d585cf8"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 500,
+    "zone_function": "Storage",
+    "zone_orientation": "South",
+    "thermal_mass_index": 1.8,
+    "id": "f616fab9-a587-4bcf-b3e8-56ddfb242f0c"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "960d8a5b-0a20-45c4-a0a8-d3a1ff2abf41"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "6bd07b76-4c32-489f-80b1-0e23ab027891"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Warehouse",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.5,
+    "id": "4844dada-87cf-4cdf-9a39-c0f55a92d4b6"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.8,
+    "id": "6d0af4bf-4c8f-4bf9-9e50-e3bc38f40acd"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Manufacturing",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "7e05560d-afb1-4fa1-9957-5a10809b0bd3"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Lab",
+    "zone_orientation": "South",
+    "thermal_mass_index": 3.5,
+    "id": "ff31d3a8-6b9f-4ffa-907b-d8df2d455e1d"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1800,
+    "zone_function": "Gym",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.9,
+    "id": "65c7a3de-b386-48bd-96f2-2ad26f210d81"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Lobby",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.0,
+    "id": "fb22bbb9-0576-4e09-83c0-93b3924757dd"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1100,
+    "zone_function": "Server Room",
+    "zone_orientation": "North",
+    "thermal_mass_index": 6.2,
+    "id": "ab4d0a9b-a95d-4d56-90fd-56ecaff18899"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 1300,
+    "zone_function": "Library",
+    "zone_orientation": "South",
+    "thermal_mass_index": 2.7,
+    "id": "1930433e-5cc0-4ccf-a7bb-8406a8c72480"
+  },
+  {
+    "zone_id": 1,
+    "zone_square_footage": 1200,
+    "zone_function": "Office",
+    "zone_orientation": "North",
+    "thermal_mass_index": 3.2,
+    "id": "42d8a71a-a2df-4373-9ef9-8dfb294c3be0"
+  },
+  {
+    "zone_id": 2,
+    "zone_square_footage": 850,
+    "zone_function": "Conference Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.1,
+    "id": "3da238e1-b3a3-4ef5-a5bf-85c08fb05b73"
+  },
+  {
+    "zone_id": 3,
+    "zone_square_footage": 1500,
+    "zone_function": "Lobby",
+    "zone_orientation": "East",
+    "thermal_mass_index": 2.8,
+    "id": "d4b98e49-768e-45e8-9eb8-4de5c336b66f"
+  },
+  {
+    "zone_id": 4,
+    "zone_square_footage": 600,
+    "zone_function": "Break Room",
+    "zone_orientation": "West",
+    "thermal_mass_index": 3.5,
+    "id": "ba0531eb-d9d1-4232-b8d0-19f6facfee1d"
+  },
+  {
+    "zone_id": 5,
+    "zone_square_footage": 2000,
+    "zone_function": "Warehouse",
+    "zone_orientation": "North",
+    "thermal_mass_index": 5.0,
+    "id": "a630c528-6ced-43f4-958e-e4c5c0592ceb"
+  },
+  {
+    "zone_id": 6,
+    "zone_square_footage": 750,
+    "zone_function": "Server Room",
+    "zone_orientation": "South",
+    "thermal_mass_index": 4.7,
+    "id": "be2c8e66-1f38-4dab-94fd-1392c8f94e84"
+  },
+  {
+    "zone_id": 7,
+    "zone_square_footage": 1100,
+    "zone_function": "Lab",
+    "zone_orientation": "East",
+    "thermal_mass_index": 3.9,
+    "id": "98e2a403-cf28-4587-bb22-c0ed131f0ea1"
+  },
+  {
+    "zone_id": 8,
+    "zone_square_footage": 950,
+    "zone_function": "Library",
+    "zone_orientation": "West",
+    "thermal_mass_index": 2.5,
+    "id": "2e63deb6-08fa-4626-9e25-9e4c6cac0f4f"
+  },
+  {
+    "zone_id": 9,
+    "zone_square_footage": 1800,
+    "zone_function": "Gym",
+    "zone_orientation": "North",
+    "thermal_mass_index": 4.3,
+    "id": "649d5bce-c9bb-4935-8e84-881bcab6ee1e"
+  },
+  {
+    "zone_id": 10,
+    "zone_square_footage": 500,
+    "zone_function": "Storage",
+    "zone_orientation": "South",
+    "thermal_mass_index": 1.8,
+    "id": "66f16eac-aa11-437f-83d1-aff35669e49b"
+  }
+]

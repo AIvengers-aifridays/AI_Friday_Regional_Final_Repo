@@ -1,0 +1,962 @@
+[
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.5,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "b30460d5-f3a4-4fa5-afdd-f3be57ead817"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.75,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "00579a11-e72c-4f54-bc16-053dca4063b6"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "4676b6f1-096d-40c4-bee4-c224a526fb3b"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 800.25,
+    "cost_timestamp": "2023-10-18T09:10:00Z",
+    "id": "69aad32e-284b-458e-a594-b4ccc6cf5564"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 450.0,
+    "cost_timestamp": "2023-10-19T11:30:00Z",
+    "id": "1fc300e1-0a78-4c51-bc03-644a8d4d3f36"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-20T16:00:00Z",
+    "id": "cf5af3d6-79bf-49ac-b135-ee3f1380f07a"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 600.5,
+    "cost_timestamp": "2023-10-21T10:15:00Z",
+    "id": "7f7830ae-59ae-4ece-b285-d8ccfc8b6a3f"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 750.0,
+    "cost_timestamp": "2023-10-22T13:25:00Z",
+    "id": "71fd58c0-a9d4-4fa5-ba6b-f03938855d50"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Consulting",
+    "related_asset_id": 109,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-10-23T15:45:00Z",
+    "id": "c706bdfd-206a-4089-b519-81138f710a28"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 110,
+    "cost_amount": 150.3,
+    "cost_timestamp": "2023-10-24T17:30:00Z",
+    "id": "c59ab0fb-78f3-461f-8950-81f39eef4c2b"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.5,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "607f7286-5e5b-49d7-b616-cca9df0491dd"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "8fc51a56-01cd-45b8-b2a6-3015192b6b8b"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 500.75,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "0a20caa7-b72a-4477-95c8-f8048fb7c4b0"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-18T09:10:00Z",
+    "id": "ae4280aa-1489-4c7d-87f5-4c3f753128c1"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 150.25,
+    "cost_timestamp": "2023-10-19T11:30:00Z",
+    "id": "f6949916-0cc4-4039-a746-af7523703f4e"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-10-20T16:00:00Z",
+    "id": "205bedb5-83cc-4e7d-8d5a-70e72203ee37"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 450.0,
+    "cost_timestamp": "2023-10-21T10:15:00Z",
+    "id": "59bc201d-cb00-42b9-8219-bbda0271752d"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 600.0,
+    "cost_timestamp": "2023-10-22T13:50:00Z",
+    "id": "598f1451-38f5-477b-8d86-3ec6930c6389"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 109,
+    "cost_amount": 75.3,
+    "cost_timestamp": "2023-10-23T15:25:00Z",
+    "id": "10cfb8a6-f195-4106-bb3d-93f77d6bfdf9"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 800.0,
+    "cost_timestamp": "2023-10-24T17:40:00Z",
+    "id": "07722f10-0ada-4c2a-8c67-a8ca235b3c43"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-01-15T09:30:00Z",
+    "id": "037f18f6-1ab5-41a1-a68e-02d7c0948536"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.5,
+    "cost_timestamp": "2023-01-20T14:45:00Z",
+    "id": "6c87c90b-dd77-481a-a616-7f2e9aa8544c"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 750.25,
+    "cost_timestamp": "2023-02-05T11:20:00Z",
+    "id": "ffd7e05f-0a73-4775-8027-77234df0ad12"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 3000.0,
+    "cost_timestamp": "2023-02-10T10:00:00Z",
+    "id": "e79709e8-2e58-47b1-be3b-bdf93e937bbe"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Cleaning",
+    "related_asset_id": 105,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-03-01T08:00:00Z",
+    "id": "455e241d-dbf6-4a44-98d9-416e0a6fd880"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Security",
+    "related_asset_id": 106,
+    "cost_amount": 1500.0,
+    "cost_timestamp": "2023-03-15T13:30:00Z",
+    "id": "64038ffd-3b25-4fcd-8b81-b62c0ecf96fb"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Software License",
+    "related_asset_id": 107,
+    "cost_amount": 800.0,
+    "cost_timestamp": "2023-04-01T00:00:00Z",
+    "id": "6e31924d-264d-4f10-8933-e720538db59d"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-04-10T09:15:00Z",
+    "id": "8017c76c-383c-4c1c-96da-c72f7c0bf5be"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Consulting",
+    "related_asset_id": 109,
+    "cost_amount": 2500.0,
+    "cost_timestamp": "2023-05-05T16:00:00Z",
+    "id": "76dd1d45-f937-420a-8b8f-f6f63ae33fce"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Taxes",
+    "related_asset_id": 110,
+    "cost_amount": 4000.0,
+    "cost_timestamp": "2023-05-20T12:00:00Z",
+    "id": "ba194ef1-1ffc-4256-b81d-bc63ab99d751"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-01-15T08:30:00Z",
+    "id": "2300749a-6ea1-4319-94fd-c9d907e73447"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.5,
+    "cost_timestamp": "2023-01-20T12:45:00Z",
+    "id": "6bb797de-c467-4a43-b66f-91c62e6afee6"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 750.25,
+    "cost_timestamp": "2023-02-05T09:15:00Z",
+    "id": "38532598-62ab-4a21-9274-7cc63c46d2fc"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 3000.0,
+    "cost_timestamp": "2023-02-10T14:00:00Z",
+    "id": "7bace83f-3b61-412b-be5a-3d7088b6c090"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 450.75,
+    "cost_timestamp": "2023-03-01T10:20:00Z",
+    "id": "3363a97e-49ea-42c7-a642-a6ac9c4f7a6b"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-03-15T11:30:00Z",
+    "id": "0141f7c9-6d3d-4b33-8778-7fbdd18b1033"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 800.0,
+    "cost_timestamp": "2023-04-01T13:00:00Z",
+    "id": "345c7169-2a32-4b66-a5e4-3e5956d2e68c"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-04-10T15:45:00Z",
+    "id": "513771f8-75c3-4537-9a99-d3f8978d6593"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 109,
+    "cost_amount": 150.5,
+    "cost_timestamp": "2023-05-05T16:00:00Z",
+    "id": "6920bd16-43ad-4ef2-a1b9-df997995e1e5"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 2500.0,
+    "cost_timestamp": "2023-05-20T17:30:00Z",
+    "id": "c91eae0d-27b2-49be-9c66-8bcedf138df8"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-01T09:30:00Z",
+    "id": "ac9888c3-cd33-4175-9db2-c5b2ac738abe"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.5,
+    "cost_timestamp": "2023-10-02T10:15:00Z",
+    "id": "28b49b7c-4ba8-4830-9e96-9ad3f525442f"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 750.25,
+    "cost_timestamp": "2023-10-03T11:45:00Z",
+    "id": "8d14edbb-822e-4466-9349-4d6fa02afcb1"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-04T12:00:00Z",
+    "id": "82888b75-3047-4027-a8af-2407d9d5fe26"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Cleaning",
+    "related_asset_id": 105,
+    "cost_amount": 200.75,
+    "cost_timestamp": "2023-10-05T13:20:00Z",
+    "id": "f6297d48-8e74-41bf-94f7-5f5db83124fb"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Security",
+    "related_asset_id": 106,
+    "cost_amount": 450.0,
+    "cost_timestamp": "2023-10-06T14:10:00Z",
+    "id": "47936215-f0b7-4115-bbd7-22e1d0135efc"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Software License",
+    "related_asset_id": 107,
+    "cost_amount": 800.0,
+    "cost_timestamp": "2023-10-07T15:30:00Z",
+    "id": "b1743548-c3a3-481f-88e5-f15fd92100c9"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 600.5,
+    "cost_timestamp": "2023-10-08T16:45:00Z",
+    "id": "af74851d-3e04-4fed-a614-1d48ad0dc4d8"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Consulting",
+    "related_asset_id": 109,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-10-09T17:00:00Z",
+    "id": "e1d50a11-f55b-4495-92a0-10f58f0e8079"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 110,
+    "cost_amount": 150.25,
+    "cost_timestamp": "2023-10-10T18:20:00Z",
+    "id": "c2e29fc8-e975-4f38-b073-a73860f7496d"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.5,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "72176a3a-5fa2-41d7-b461-b4cd3c75402b"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.75,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "46d288f0-6ea7-4d89-9f27-486a913b824d"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "55b72bdb-48f9-4cdf-a295-80ec6c7e3f28"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 800.25,
+    "cost_timestamp": "2023-10-18T09:10:00Z",
+    "id": "3ecab3a7-072b-4950-9813-00a5e6526f69"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 350.0,
+    "cost_timestamp": "2023-10-19T11:30:00Z",
+    "id": "f1e6c3b9-0c60-4420-b87d-8027246ca3ea"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 150.0,
+    "cost_timestamp": "2023-10-20T16:00:00Z",
+    "id": "90a92df0-2c9c-40dc-9203-f058da4b9d1f"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 600.0,
+    "cost_timestamp": "2023-10-21T10:15:00Z",
+    "id": "bdcfa670-7aa7-463e-8bd8-858080d9b40e"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Taxes",
+    "related_asset_id": 108,
+    "cost_amount": 950.5,
+    "cost_timestamp": "2023-10-22T13:25:00Z",
+    "id": "24518d31-a6f8-45ef-bba2-13e954ad4b7f"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Training",
+    "related_asset_id": 109,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-23T15:40:00Z",
+    "id": "1c019553-e2f2-49e5-b618-501b288ac71f"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 750.0,
+    "cost_timestamp": "2023-10-24T17:50:00Z",
+    "id": "0970a62b-5ce4-4cd6-b626-058dd5faf8bb"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.0,
+    "cost_timestamp": "2023-10-15T09:30:00Z",
+    "id": "9b1eb67d-5a63-407a-ba0e-edbaf3764f6f"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-16T14:45:00Z",
+    "id": "dae6d50f-959a-41b6-9238-22b7c75c71f4"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-10-17T11:20:00Z",
+    "id": "89352b6a-7f2a-4eb0-b652-d9fd4da23c10"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 750.0,
+    "cost_timestamp": "2023-10-18T10:15:00Z",
+    "id": "9a9b8b6a-8365-407c-b1ed-4a0ba1670e56"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-19T13:00:00Z",
+    "id": "778ef120-05b7-4c0d-84fa-59e14b2a5e19"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-10-20T08:00:00Z",
+    "id": "f4e35fc0-5aed-442f-9359-475667736214"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 450.0,
+    "cost_timestamp": "2023-10-21T16:30:00Z",
+    "id": "eb55cfd1-9315-43ce-9ce9-982e91e9dbb8"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Taxes",
+    "related_asset_id": 108,
+    "cost_amount": 1200.0,
+    "cost_timestamp": "2023-10-22T12:00:00Z",
+    "id": "671bd948-c9b7-4edd-ab41-0164d302ec8b"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Training",
+    "related_asset_id": 109,
+    "cost_amount": 600.0,
+    "cost_timestamp": "2023-10-23T09:45:00Z",
+    "id": "3346b86c-e424-4885-b9fd-82b1f6b3c19c"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 1500.0,
+    "cost_timestamp": "2023-10-24T15:20:00Z",
+    "id": "4d1afc52-bb26-4edc-b27e-67d32cdcea28"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.5,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "6b36680d-5995-466c-9358-1c4a2c3df0e0"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 180.75,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "5b970fd1-ec9d-4cfd-99d4-3c3229b0d792"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 320.0,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "024998e5-f8ff-4082-9e1b-11c7f8336198"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 150.0,
+    "cost_timestamp": "2023-10-18T09:10:00Z",
+    "id": "c9b4e990-4e2f-48b7-8e69-69054be42611"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 75.25,
+    "cost_timestamp": "2023-10-19T11:30:00Z",
+    "id": "3a5b85ee-8385-4216-a5df-681c9057d001"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 90.0,
+    "cost_timestamp": "2023-10-20T16:00:00Z",
+    "id": "7b789728-35ad-4b5f-8e75-886818e78544"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-10-21T10:15:00Z",
+    "id": "663e9934-9879-4b96-87a3-e7df528b9216"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 300.5,
+    "cost_timestamp": "2023-10-22T13:45:00Z",
+    "id": "ed875874-2a4f-4567-b292-d2ee11ebfb50"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 109,
+    "cost_amount": 45.75,
+    "cost_timestamp": "2023-10-23T15:30:00Z",
+    "id": "9e3001e8-1dae-4df6-bdbe-45a143576a18"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-24T17:20:00Z",
+    "id": "dbdefac3-75af-4728-bc46-e662ca9683aa"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-01-15T08:30:00Z",
+    "id": "68dd206a-1370-418e-87a2-0f7c5af31954"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.5,
+    "cost_timestamp": "2023-01-20T12:45:00Z",
+    "id": "a252fc43-d251-4f61-a618-725b89818f58"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 750.25,
+    "cost_timestamp": "2023-02-05T09:15:00Z",
+    "id": "1852ef80-632a-458f-9da0-30636e2debdd"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 3000.0,
+    "cost_timestamp": "2023-02-10T14:00:00Z",
+    "id": "7d667369-1fdc-4ad8-bcd3-17ddc1c46705"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Cleaning",
+    "related_asset_id": 105,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-03-01T10:30:00Z",
+    "id": "bb590a54-7a43-4264-9506-9b667367e6bc"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Security",
+    "related_asset_id": 106,
+    "cost_amount": 1500.75,
+    "cost_timestamp": "2023-03-15T16:20:00Z",
+    "id": "8f47ebcd-b5d7-49dd-9806-eb312c426e36"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Software License",
+    "related_asset_id": 107,
+    "cost_amount": 450.0,
+    "cost_timestamp": "2023-04-01T11:00:00Z",
+    "id": "92619236-0789-4154-94fd-8fcb65998ae1"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Taxes",
+    "related_asset_id": 108,
+    "cost_amount": 1800.0,
+    "cost_timestamp": "2023-04-10T13:45:00Z",
+    "id": "2ce0982a-3424-455f-98b6-b85ebe65a3d5"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Training",
+    "related_asset_id": 109,
+    "cost_amount": 600.0,
+    "cost_timestamp": "2023-05-05T09:30:00Z",
+    "id": "12290640-0230-4bf2-987d-27f923fbc826"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 2500.5,
+    "cost_timestamp": "2023-05-20T15:00:00Z",
+    "id": "8beb3c3c-0269-4145-ac89-5c139a761f82"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.5,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "db268e45-1aab-4381-b1aa-80c287446672"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.75,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "232aef7c-771c-4e76-8bb7-9d06d1bc49ca"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "f918c34c-1d4a-440c-aa07-01614e0b44f2"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 800.25,
+    "cost_timestamp": "2023-10-18T09:10:00Z",
+    "id": "b787413b-cdde-448f-81b5-159e4a8dd524"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Cleaning",
+    "related_asset_id": 105,
+    "cost_amount": 150.0,
+    "cost_timestamp": "2023-10-19T11:00:00Z",
+    "id": "6b9ae1b4-1210-465e-b58c-65f077453435"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Security",
+    "related_asset_id": 106,
+    "cost_amount": 300.5,
+    "cost_timestamp": "2023-10-20T16:30:00Z",
+    "id": "564f2093-e6c8-4324-99b0-f2b278853db4"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Software License",
+    "related_asset_id": 107,
+    "cost_amount": 450.75,
+    "cost_timestamp": "2023-10-21T10:15:00Z",
+    "id": "100b909a-4794-431d-9ea6-ddf34927ecbd"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 600.0,
+    "cost_timestamp": "2023-10-22T13:50:00Z",
+    "id": "70461f54-b4fe-4b1e-b1b8-8a8e6ba8a611"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Consulting",
+    "related_asset_id": 109,
+    "cost_amount": 750.25,
+    "cost_timestamp": "2023-10-23T15:40:00Z",
+    "id": "ac431356-fb3d-4ae9-9145-6a3e9cf6e487"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 110,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-10-24T17:00:00Z",
+    "id": "755258c8-4f80-492f-bdbc-346ee067688c"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 500.0,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "5274c9df-59fe-4e26-9634-34635fc72275"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 1200.5,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "9be1f48d-909d-4945-a7c8-d7e0ee93afaa"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 750.25,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "b46ff653-1bba-4d80-a66b-acdeb9096fbe"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-18T09:15:00Z",
+    "id": "0a5f1e6e-f042-4adf-985a-773937c1da8d"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 450.75,
+    "cost_timestamp": "2023-10-19T11:00:00Z",
+    "id": "f67a5f76-c5fd-42dd-892f-45f35f9601bd"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-10-20T13:30:00Z",
+    "id": "b3ec1547-9635-4078-87d7-092b024676b2"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 600.0,
+    "cost_timestamp": "2023-10-21T10:00:00Z",
+    "id": "063190fe-ce52-45d7-b4aa-6d617097b3ab"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Training",
+    "related_asset_id": 108,
+    "cost_amount": 350.5,
+    "cost_timestamp": "2023-10-22T15:45:00Z",
+    "id": "00da25e3-1403-4a4c-a19d-33ada04ace17"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 109,
+    "cost_amount": 150.25,
+    "cost_timestamp": "2023-10-23T16:20:00Z",
+    "id": "2f7a749d-60ed-4d59-a13e-f2a95a69cabe"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Consulting",
+    "related_asset_id": 110,
+    "cost_amount": 900.0,
+    "cost_timestamp": "2023-10-24T14:00:00Z",
+    "id": "05d53c5a-cfab-4596-a793-8b8dacfbe2fc"
+  },
+  {
+    "expense_id": 1,
+    "expense_type": "Maintenance",
+    "related_asset_id": 101,
+    "cost_amount": 250.0,
+    "cost_timestamp": "2023-10-15T08:30:00Z",
+    "id": "f2dc4051-dbc3-4b16-bf33-b31063b512d1"
+  },
+  {
+    "expense_id": 2,
+    "expense_type": "Utilities",
+    "related_asset_id": 102,
+    "cost_amount": 120.5,
+    "cost_timestamp": "2023-10-16T12:45:00Z",
+    "id": "0e91b72f-fea8-4c89-bae5-473deaaca416"
+  },
+  {
+    "expense_id": 3,
+    "expense_type": "Repairs",
+    "related_asset_id": 103,
+    "cost_amount": 500.75,
+    "cost_timestamp": "2023-10-17T14:20:00Z",
+    "id": "22f07908-058e-4c97-b2a2-196b4e43770f"
+  },
+  {
+    "expense_id": 4,
+    "expense_type": "Insurance",
+    "related_asset_id": 104,
+    "cost_amount": 300.0,
+    "cost_timestamp": "2023-10-18T09:15:00Z",
+    "id": "81774511-f91a-4496-ac29-e2cebfced510"
+  },
+  {
+    "expense_id": 5,
+    "expense_type": "Software License",
+    "related_asset_id": 105,
+    "cost_amount": 150.25,
+    "cost_timestamp": "2023-10-19T11:00:00Z",
+    "id": "463be530-e88d-448c-8c42-5725ed01484d"
+  },
+  {
+    "expense_id": 6,
+    "expense_type": "Cleaning",
+    "related_asset_id": 106,
+    "cost_amount": 75.5,
+    "cost_timestamp": "2023-10-20T16:30:00Z",
+    "id": "39520010-d6bc-4182-b3c6-0a738ff28543"
+  },
+  {
+    "expense_id": 7,
+    "expense_type": "Security",
+    "related_asset_id": 107,
+    "cost_amount": 200.0,
+    "cost_timestamp": "2023-10-21T10:00:00Z",
+    "id": "5f61459b-ee56-487d-aed1-b86b694981d8"
+  },
+  {
+    "expense_id": 8,
+    "expense_type": "Taxes",
+    "related_asset_id": 108,
+    "cost_amount": 450.0,
+    "cost_timestamp": "2023-10-22T13:45:00Z",
+    "id": "aef32cc0-4a13-4fa7-923f-cafd95e7d3ff"
+  },
+  {
+    "expense_id": 9,
+    "expense_type": "Training",
+    "related_asset_id": 109,
+    "cost_amount": 180.75,
+    "cost_timestamp": "2023-10-23T15:20:00Z",
+    "id": "2035f781-9e91-4bca-b09c-a94943a1b7ad"
+  },
+  {
+    "expense_id": 10,
+    "expense_type": "Office Supplies",
+    "related_asset_id": 110,
+    "cost_amount": 90.3,
+    "cost_timestamp": "2023-10-24T17:00:00Z",
+    "id": "e6fa331c-c849-497d-8eb9-ec2869fcfd7c"
+  }
+]
